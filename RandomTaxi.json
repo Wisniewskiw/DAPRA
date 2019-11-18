@@ -1,0 +1,22 @@
+{
+    "approx_pickup": 2,
+    "closeTimeColumnName": "EndRide",
+    "df": "Random_taxi_cleaned.csv",
+    "df_nrows": null,
+    "dropoff_latitude": "RandomYDropoff",
+    "dropoff_longitude": "RandomXDropoff",
+    "grouping_columns": [
+        "TaxiType"
+    ],
+    "openTimeColumnName": "StartRide",
+    "pickup_latitude": "RandomYPickup",
+    "pickup_longitude": "RandomXPickup",
+    "preprocess": true,
+    "resolution": 60,
+    "save_prefix": "random",
+    "statistics_columns_list": [
+        "Fare",
+        "DurationMins",
+        "DistanceTravelled"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "approx_pickup": 3,
+    "closeTimeColumnName": "dropoff_datetime",
+    "df": "cleaned_taxi_1.csv",
+    "df_nrows": 100000,
+    "dropoff_latitude": "dropoff_latitude",
+    "dropoff_longitude": "dropoff_longitude",
+    "grouping_columns": [
+        "vendor_id"
+    ],
+    "openTimeColumnName": "pickup_datetime",
+    "pickup_latitude": "pickup_latitude",
+    "pickup_longitude": "pickup_longitude",
+    "preprocess": true,
+    "resolution": 300,
+    "save_prefix": "test_",
+    "statistics_columns_list": [
+        " fare_amount",
+        "trip_distance",
+        "trip_time_in_secs"
+    ]
+}
